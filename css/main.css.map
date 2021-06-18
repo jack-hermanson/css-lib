@@ -1,0 +1,1 @@
+{"version":3,"sources":["main.css"],"names":[],"mappings":"AAAA;EACE,eAAe;AACjB;;AAEA;EACE,eAAe;AACjB","file":"main.css","sourcesContent":["p {\n  font-size: 16px;\n}\n\np span.small {\n  font-size: 12px;\n}\n"]}
