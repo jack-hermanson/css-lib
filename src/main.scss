@@ -1,6 +1,5 @@
-p {
-  font-size: 16px;
-  span.small {
-    font-size: 12px;
+.hover-mouse {
+  &:hover {
+    cursor: pointer;
   }
 }
