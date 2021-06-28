@@ -46,4 +46,10 @@ table.same-width tbody > tr th {
   text-transform: capitalize;
 }
 
+.checkbox-lg {
+  width: 1.4em;
+  height: 1.4em;
+  margin-top: 0;
+}
+
 /*# sourceMappingURL=main.css.map */
