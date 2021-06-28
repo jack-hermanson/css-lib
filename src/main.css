@@ -19,10 +19,10 @@ a.btn:hover {
   color: red;
 }
 
-.card-table tbody > tr th {
+.card-table tbody > tr :first-child {
   padding-left: 1em;
 }
-.card-table tbody > tr td:last-of-type {
+.card-table tbody > tr :last-child {
   padding-right: 1em;
 }
 .card-table tbody > tr:last-of-type th,

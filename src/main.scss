@@ -27,11 +27,11 @@ a.btn:hover {
 
 .card-table {
   tbody > tr {
-    th {
+    :first-child {
       padding-left: 1em;
     }
 
-    td:last-of-type {
+    :last-child {
       padding-right: 1em;
     }
 
