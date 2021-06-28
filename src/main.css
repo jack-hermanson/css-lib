@@ -47,9 +47,9 @@ table.same-width tbody > tr th {
 }
 
 .checkbox-lg {
-  width: 1.4em;
-  height: 1.4em;
-  margin-top: 0;
+  width: 1.4em !important;
+  height: 1.4em !important;
+  margin-top: 0 !important;
 }
 
 /*# sourceMappingURL=main.css.map */
