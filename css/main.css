@@ -57,7 +57,7 @@ table.same-width tbody > tr th {
 }
 
 .dropdown-menu {
-  z-index: 1050;
+  z-index: 1050 !important;
 }
 
 /*# sourceMappingURL=main.css.map */
