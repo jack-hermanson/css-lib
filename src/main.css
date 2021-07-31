@@ -19,18 +19,20 @@ a.btn:hover {
   color: red;
 }
 
-.card-table tbody > tr :first-child {
+.card-table tbody tr :first-child, .card-table thead tr :first-child {
   padding-left: 1em;
 }
-.card-table tbody > tr :last-child {
+.card-table tbody tr :last-child, .card-table thead tr :last-child {
   padding-right: 1em;
 }
-.card-table tbody > tr:last-of-type th,
-.card-table tbody > tr:last-of-type td {
+.card-table tbody tr:last-of-type th,
+.card-table tbody tr:last-of-type td, .card-table thead tr:last-of-type th,
+.card-table thead tr:last-of-type td {
   border-bottom: 0;
 }
-.card-table tbody > tr:first-of-type th,
-.card-table tbody > tr:first-of-type td {
+.card-table tbody tr:first-of-type th,
+.card-table tbody tr:first-of-type td, .card-table thead tr:first-of-type th,
+.card-table thead tr:first-of-type td {
   border-top: 0;
 }
 
@@ -50,6 +52,10 @@ table.same-width tbody > tr th {
   width: 1.4em !important;
   height: 1.4em !important;
   margin-top: 0 !important;
+}
+
+.dropdown-menu {
+  z-index: 1050 !important;
 }
 
 /*# sourceMappingURL=main.css.map */

@@ -26,7 +26,7 @@ a.btn:hover {
 }
 
 .card-table {
-  tbody > tr {
+  tbody tr, thead tr {
     :first-child {
       padding-left: 1em;
     }
